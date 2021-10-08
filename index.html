@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Poppins:wght@500&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Google Charts</title>
+</head>
+
+<body>
+
+    <div id="container" class="inputbox">
+        <h3>Item Names : Values(Numeric Only)</h3>
+        <p>First column is for item names and second column is for its numeric values.</p>
+        <p>e.g: Apple : e.g: 15</p>
+        <input type="text" placeholder="Item Name" class="c1">
+        <input type="text" placeholder="Numeric value" class="r1">
+        <br>
+        <input type="text" placeholder="Item Name" class="c2">
+        <input type="text" placeholder="Numeric value" class="r2">
+        <br>
+        <input type="text" placeholder="Item Name" class="c3">
+        <input type="text" placeholder="Numeric value" class="r3">
+        <br>
+        <input type="text" placeholder="Item Name"class="c4">
+        <input type="text" placeholder="Numeric value" class="r4">
+        <br>
+        <button class="inputbtn btn">Go</button>
+    </div>
+
+    <div id="columnchart_values" style="width: 900px; height: 300px;"></div>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
