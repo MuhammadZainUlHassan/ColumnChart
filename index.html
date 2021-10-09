@@ -12,22 +12,25 @@
 </head>
 
 <body>
-
-    <div id="container" class="inputbox">
-        <h3>Item Names : Values(Numeric Only)</h3>
+    <div id="container" class="inputbox row">
         <p>First column is for item names and second column is for its numeric values.</p>
-        <p>e.g: Apple : e.g: 15</p>
-        <input type="text" placeholder="Item Name" class="c1">
-        <input type="text" placeholder="Numeric value" class="r1">
-        <br>
-        <input type="text" placeholder="Item Name" class="c2">
-        <input type="text" placeholder="Numeric value" class="r2">
-        <br>
-        <input type="text" placeholder="Item Name" class="c3">
-        <input type="text" placeholder="Numeric value" class="r3">
-        <br>
-        <input type="text" placeholder="Item Name"class="c4">
-        <input type="text" placeholder="Numeric value" class="r4">
+        <div class="column">
+            <h5>First Column</h5>
+            <p>e.g: Apple</p>
+        <input type="text" placeholder="1st Item Name" class="c1">
+        <input type="text" placeholder="2nd Item Name" class="c2">
+        <input type="text" placeholder="3rd Item Name" class="c3">
+        <input type="text" placeholder="4th Item Name"class="c4">
+    </div>
+
+    <div class="column">
+        <h5>Second Column</h5>
+        <p>e.g: 15</p>
+        <input type="text" placeholder="1st Numeric value" class="r1">
+        <input type="text" placeholder="2nd Numeric value" class="r2">
+        <input type="text" placeholder="3rd Numeric value" class="r3">
+        <input type="text" placeholder="4th Numeric value" class="r4">
+    </div>
         <br>
         <button class="inputbtn btn">Go</button>
     </div>
