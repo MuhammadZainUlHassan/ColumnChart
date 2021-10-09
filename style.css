@@ -1,15 +1,6 @@
-*{
-box-sizing: border-box;
-}
-@media screen and (max-width: 600px) {
-    .inputbox {
-      width: 100%;
-    }
-  }
-
 body{
     font-family: 'Poppins', sans-serif;
-    display:inline-flex;
+    display: flex;
 }
 h3{
     font-family: 'Poppins', sans-serif;
@@ -29,7 +20,7 @@ h3{
 
 .inputbox{
     background-color: #90D4E0;
-    width: 370px;
+    width: 100vh;
     padding: 10px;
     border: 2px solid #5bb1c0;
     border-radius: 10px;
@@ -40,3 +31,24 @@ border: 1px solid #000000;
 border-radius: 5px;
 padding: 3px;
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
